@@ -2,11 +2,11 @@
 my_notes = open('my_notes.txt', 'w')
 
 # Método write(): escribir una línea a la vez
-my_notes.write("Línea 1: Esto es una prueba.\n")
-my_notes.write("Línea 2: Escribiendo en archivos con Python.\n")
+my_notes.write("Línea 1: Mi nombre es Stefania Gavilanez.\n")
+my_notes.write("Línea 2: Estudio en la UEA.\n")
 
 # Método writelines(): escribir una lista de líneas
-lineas = ["Línea 3: Otro ejemplo.\n", "Línea 4: Finalizando el ejemplo.\n"]
+lineas = ["Línea 3: Sigo la carrera Tecnologias de la Información.\n", "Línea 4: Estoy en primer semestre.\n"]
 my_notes.writelines(lineas)
 
 my_notes.close()

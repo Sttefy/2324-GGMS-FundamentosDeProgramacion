@@ -1,34 +1,32 @@
-# Diccionario
-
+#Diccionario de informacion personal
 informacion_personal = {
-    'nombre':'Stefania',
-    'edad':27,
-    'ciudad':'Puyo',
-    'provincia':'Pastaza',
+    "nombre": "Santiago",
+    "apellido": "Guerra",
+    "edad": 32,
+    "ciudad": "Galapagos",
+    "provincia": "Puerto Baquerizo Moreno"
 }
 print('----------------------')
-print('Diccionario Original')
+print(informacion_personal)
 print('----------------------')
-for clave, valor in informacion_personal.items():
-    print(f'{clave} : {valor}')
 
-# Modificar clave ciudad
-informacion_personal['ciudad'] = 'Quito'
-informacion_personal['provincia'] = 'Pichincha'
+#Cambio de valor en la clave
+informacion_personal["ciudad"] = "Andorra"
+print(informacion_personal["ciudad"])
 
-# Nueva clave-valor al diccionario "profesion"
-informacion_personal['profesion'] = 'Docente'
+#Agrego clave:valor en diccionario
+informacion_personal["profesion"] = "Mecanico"
+print(informacion_personal)
 
-# Verifica si la clave "telefono" existe
-if 'telefono' not in informacion_personal:
-    informacion_personal['telefono'] = '0987654321'
+#Verifico si existe clave:valor celular y agrego
+if "celular" in informacion_personal:
+    print(informacion_personal["celular"])
+else:
+    informacion_personal["celular"] = "0935729751"
+    print('----------------------')
+    print(informacion_personal)
+    print('----------------------')
 
-# Elimina la clave "edad" del diccionario
-# del informacion_personal['edad']
-informacion_personal.pop('edad')
-
-print('----------------------')
-print('Diccionario Modificado')
-print('----------------------')
-for clave, valor in informacion_personal.items():
-    print(f'{clave} : {valor}')
+#Elimino clave
+informacion_personal.pop("edad")
+print(informacion_personal)

@@ -1,4 +1,4 @@
-Línea 1: Esto es una prueba.
-Línea 2: Escribiendo en archivos con Python.
-Línea 3: Otro ejemplo.
-Línea 4: Finalizando el ejemplo.
+Línea 1: Mi nombre es Stefania Gavilanez.
+Línea 2: Estudio en la UEA.
+Línea 3: Sigo la carrera Tecnologias de la Información.
+Línea 4: Estoy en primer semestre.
